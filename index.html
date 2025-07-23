@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <!-- 문서의 문자 인코딩을 UTF-8로 설정 (한글 포함) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 모바일 화면에서 화면 크기 및 확대 배율 기본 설정 -->
+  <title>네이버 지도 API 예제</title>
+  <!-- 브라우저 탭에 보이는 제목 -->
+
+  <!-- 네이버 지도 API JS 불러오기 -->
+  <!-- YOUR_CLIENT_ID 부분에 네이버 개발자센터에서 발급받은 Client ID를 넣어야 합니다 -->
+  <script 
+    type="text/javascript" 
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=hedf3lusra">
+  </script>
+
+  <!-- 외부 CSS 파일 연결 -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>네이버 지도 API 간단 예제</h1>
+  <!-- 페이지 제목 -->
+
+  <!-- 지도를 표시할 영역 -->
+  <div id="map"></div>
+
+  <!-- 현재 위치로 이동하는 버튼 -->
+  <button id="locateBtn">현재 위치로 이동</button>
+
+  <!-- 외부 JS 파일 연결 -->
+  <script src="script.js"></script>
+</body>
+</html>
